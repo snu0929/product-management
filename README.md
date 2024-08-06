@@ -55,17 +55,18 @@ Navigate to the backend folder and start the json-server:
 ```sh
 npx json-server --watch db.json --port 5000
 This will start the backend server at http://localhost:5000.
-
+```
 Setup Frontend:
 
 Navigate to the frontend folder, install dependencies, and start the React application:
+
 
 
 ```sh
 npm install
 npm start
 This will start the frontend server at http://localhost:3000.
-
+```
 ## Usage
 ### Display Products:
 
