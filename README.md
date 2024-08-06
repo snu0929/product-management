@@ -63,8 +63,8 @@ Navigate to the frontend folder, install dependencies, and start the React appli
 
 
 ```sh
-npm install
-npm start
+Yarn add
+yarn add
 This will start the frontend server at http://localhost:3000.
 ```
 ## Usage
