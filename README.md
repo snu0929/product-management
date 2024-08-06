@@ -45,7 +45,7 @@ This project consists of a `backend` built with `json-server` and a `frontend` b
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/snu0929/product-management.git
    cd yourrepository
 
 Setup Backend:
