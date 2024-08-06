@@ -1,0 +1,144 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e0e5f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.header {
+  display: flex;
+ 
+  gap:20px;
+  align-items: center;
+  padding: 10px 0;
+}
+.product-count{
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 50px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+
+
+.product-count {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
+}
+
+.filter-container button{
+  background-color: white;
+}
+.filter-container select{
+  width: 22%;
+  border-radius: 25px;
+  padding-right: 10px;
+
+}
+
+.search-input {
+  padding: 15px ;
+  border: 1px solid #ccc;
+  width: 40%;
+  border-radius: 5px;
+}
+.search-btn{
+  padding: 15px 35px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn:hover{
+  background-color: #0869d2;
+}
+.filter-dropdown, .filter-button, .bulk-action-button, .apply-button {
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.product-table th, .product-table td {
+padding-left: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.product-table th {
+  background-color: #9ae7fb;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.action-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  text-decoration: underline;
+}
+
+
+.extra-info{
+  font-size: 15px
+}
+
+
+.checkbox-cell {
+  padding: 0; /* Remove padding if not needed */
+  text-align: center; /* Align checkbox if needed */
+}
+
+.checkbox-cell input[type="checkbox"] {
+  margin: 0; /* Ensure no margin around the checkbox */
+  padding: 0; /* Ensure no padding around the checkbox */
+}
+
+table {
+  border-collapse: collapse; /* Ensure table borders are collapsed */
+  width: 100%;
+}
+
+th, td {
+  padding: 8px; /* Adjust padding as needed */
+  text-align: left; /* Ensure text is aligned to the left */
+}

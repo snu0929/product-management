@@ -1,0 +1,99 @@
+/* AddProductModal.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 85%;
+    max-width: 1000px;
+    max-height: 90%;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #75b4c4
+  }
+  
+  .columns {
+    display: flex;
+    gap: 20px;
+   
+  }
+  
+  .column {
+    flex: 1;
+    max-height: 500px;
+    border: 1px solid rgb(223, 213, 213);
+    
+  }
+  
+  .scrollable-list {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+  }
+
+ 
+  .scrollable-list::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+
+  
+  .scrollable-list::-webkit-scrollbar-thumb {
+    background-color: #374143;
+    border-radius: 20px;
+    border: 1px solid #f1f1f1;
+  }
+  
+  .list-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .list-item.selected {
+    background-color: #9ae7fb;
+    border-radius: 25px;
+
+  }
+  
+  .checkbox-container {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .submit-button {
+    display: block;
+    /* width: 100%; */
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: jus;
+  }
+  

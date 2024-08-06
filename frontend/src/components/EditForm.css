@@ -1,0 +1,140 @@
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #f6f1f1;
+
+    padding: 20px;
+}
+
+.quick-edit-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.title-price {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+}
+.title{
+    margin-left: 20px;
+}
+.req-field{
+    color: red;
+    font-weight: 200;
+}
+.price-input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-input-group label {
+    margin: 0;
+}
+
+.price-input-group input {
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid #7b7979;
+    width: 100px;
+    background-color: white;
+}
+
+.title-price p {
+    margin: 0;
+}
+
+.product-details-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.product-details-section h3 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.product-details-inputs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-group label {
+    margin-right: 10px;
+    flex-shrink: 0;
+    width: 130px;
+}
+
+.input-group input {
+    padding: 5px;
+    border-radius: 25px;
+    border: 1px solid #7b7979;
+    width: 100%;
+    background-color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+.submit-btn{
+    background-color: #007bff !important;
+    color: white !important;
+}
+.buttons button {
+    padding: 5px 30px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.custom-hr {
+    border: none;
+    border-top: 2px solid black;
+    margin: 20px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .product-details-inputs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .title-price {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .product-details-inputs {
+        grid-template-columns: 1fr;
+    }
+
+    .input-group label {
+        width: 100px;
+    }
+
+    .price-input-group input {
+        width: 100%;
+    }
+}
